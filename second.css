@@ -1,0 +1,185 @@
+.skin1 {
+	background-color: #191f25;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	overflow: hidden;
+
+}
+
+body {
+	margin:0;
+}
+.tbody1 {
+	width: 1000px;
+	background-color: #191f25;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.block {
+	width: 450px;
+	display: inline-block;
+	float: left;
+
+}
+.heading1 {
+	 text-align: left;
+     font: 28px arial, sans-serif;
+     width: 400px;
+     margin: 0;
+}
+.heading2 {
+
+	 text-align: left;
+     font: 14px arial, sans-serif;
+     margin-bottom: 1em;	
+}
+.textexmpl {
+	color: #a8aeae;
+	font: 10px arial, sans-serif;
+	text-align: left;
+	width: 300px;
+	margin-bottom: 8em;
+}
+.textexmpl2 {
+	color: #a8aeae;
+	font: 12px arial, sans-serif;
+	text-align: left;
+	width: 300px;
+	margin-bottom: 8em;
+	}
+.bottom {
+	width: 120px;
+	height: 30px;
+	border: 1px solid green;
+	border-radius: 5%;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+}
+.sepline {
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	display: block;
+	position: relative;
+	box-shadow: inset 0 0 2px 2px #191f25;
+}
+.sepline2 {
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	display: block;
+	position: relative;
+}
+
+#whiteh {
+	 color: white;
+}
+#blackh {
+	color: black;
+}
+.mergg {
+	margin-bottom: 2em;
+}
+
+#img {
+    height: 370px;
+	background: url('email-signup.png') no-repeat ;
+	background-size: 450px 370px;
+	position: relative;
+	margin: 3em 0;
+
+}
+#text {
+	margin: 3.5em 0 0 5em ;
+
+}
+
+.h-align {
+	text-align: center;
+	margin: 6em auto ;
+	margin-bottom: 2em;
+}
+#img2 {
+	width:600px;
+	height:520px;
+	background: #191f25 url('samplegrid.png') no-repeat center;
+	background-size: 600px 520px;
+	float: none;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+
+.bbody {
+     height: 590px;
+     background: #191f25 url('pirate.png') no-repeat;
+     background-size: 598px 600px;
+     background-position: 100% 0;
+
+}
+.marcenter
+{
+	margin: 10em 0 0 6em;
+}
+.marcenter2 {
+	margin: 2em 0 0 16em;
+}
+ .bigbot {
+ 	width: 400px;
+ 	height: 90px;
+ 	border: 4px solid white;
+ 	background-color: #191f25;
+ 	margin: 20em auto;
+    display:block;
+    position: relative;
+    float: none;
+ }
+ .marcenter3 {
+ 	font-size: 40px;
+ 	text-align: center;
+ 	margin: 25px auto;
+
+ }
+ .smlbot {
+ 	width: 50px;
+ 	height: 50px;
+ 	background: #191f25 url('smlbtm.png') no-repeat;
+ 	background-size: 50px 50px;
+ 	margin: 0 auto;
+ 	margin-bottom: 4em;
+ 	display: block;
+ 	float: none;
+ 	position: relative;
+ }
+
+ .imgex {
+ 	width: 400px;
+ 	height: 400px;
+ 	background: #191f25 url('exldoc.png') no-repeat;
+ 	background-size: 400px 400px;
+ 	margin-top: 10em;
+    margin-right: 6em;
+ }
+ .use {
+ 	height: 200px;
+ 	margin-top: 13em;
+ 	background: url('minipic.png') no-repeat;
+ 	background-size: 150px 25px;
+ 	background-position: left-top;
+ }
+ .mardown {
+ 	margin-top: 4em;
+ }
+ .bottom h5 {
+ 	color: #25a14e;
+ 	margin: 8px auto;
+ }
+ .botmrg {
+      margin-left: 200px;
+      margin-top: 2em;
+ }

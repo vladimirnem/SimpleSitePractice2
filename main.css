@@ -1,0 +1,291 @@
+
+ @import url('second.css');
+
+ .skingray {
+	background-color: #e6e7e9;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.tbody2 {
+	width: 1000px;
+	background-color: #e6e7e9;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.bckimg {
+	height: 700px;
+	background: #e6e7e9 url('rocket.png') no-repeat;
+	background-position: right;
+	background-size: 360px 390px;
+}
+
+body > div.skingray > div > h3 {
+	margin-top: 7em;
+
+}
+.mergg {
+	margin: auto;
+	text-align: center;
+}
+.mergg1 {
+	margin: 1em auto;
+	margin-bottom: 6em;
+	text-align: center;
+}
+
+.img1 {
+	width:90px;
+	height: 90px;
+	background: url('twt.png') no-repeat;
+	background-size: 90px 90px;
+	position: relative;
+	display: block;
+	float: none;
+	margin:0 auto;
+}
+.img2 {
+	width:90px;
+	height: 90px;
+	background: url('ipadiphone.png') no-repeat;
+	background-size: 90px 90px;
+	position: relative;
+	display: block;
+	float: none;
+	margin:0 auto;
+}
+.img3 {
+	width:90px;
+	height: 90px;
+	background: url('pspro.png') no-repeat;
+	background-size: 90px 90px;
+	position: relative;
+	display: block;
+	float: none;
+	margin:0 auto;
+	}
+	.blcksze {
+		width:30%;
+	}
+	.ind {
+		width: 100%;
+		height: 1px;
+		background-color: #e6e7e9;
+		margin-top: 30em;
+	}
+
+	.imgrckt {
+		width: 500px;
+		height: 600px;
+		background: #e6e7e9 url('rocketstar.png') no-repeat;
+		background-size: 300px 288px;
+		background-position: center;
+		display: inline-block;
+		float: left;
+		position: relative;
+	}
+	.txtimg {
+		width: 500px;
+		display: inline-block;
+		float: left;
+		margin-top: 12em;
+		margin-left: 4em;
+
+	}
+	.buyb {
+		width: 400px;
+		height: 50px;
+		background: url('buyapp.png') no-repeat;
+		background-size: 300px 40px;
+		position: relative;
+		margin-top: -2em;
+	}
+	.wide {
+
+	margin: 1em auto;
+	margin-bottom: 10em;
+	text-align: center;
+	width: 600px;
+
+
+	}
+	.bird {
+		width: 1000px;
+		height: 308px;
+		background: #e6e7e9 url('flyingbird.png') no-repeat;
+		background-size: 750px 259px;
+		background-position: bottom;
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+.video {
+	width: 700px;
+	height: 200px;
+	background: url('video.png') no-repeat;
+	background-size: 700px 200px;
+	display: block;
+	float: none;
+	position: relative;
+	margin: 10em auto;
+}
+
+.scrn {
+	width:150px;
+	height: 365px;
+	background: url('scrn.png') no-repeat;
+	background-size: 150px 365px;
+	position: relative;
+	margin-left: 12em;
+	margin-top: 6em;
+	margin-bottom: 12em;
+}
+.scrn2 {
+	width:152px;
+	height: 451px;
+	background: url('scrn2.png') no-repeat;
+	background-size: 152px 451px;
+	position: relative;
+	margin-left: 3em;
+}
+.scrn3 {
+	width:152px;
+	height: 366px;
+	background: url('scrn3.png') no-repeat;
+	background-size: 152px 366px;
+	position: relative;
+	margin-top: -0.4em;
+	margin-left: 3em;
+}
+.scrn4 {
+	width:153px;
+	height: 265px;
+	background: url('scrn4.png') no-repeat;
+	background-size: 153px 265px;
+	position: relative;
+	margin-top: 6em;
+	margin-left: 3em;
+}
+
+.stick {
+	width:37px;
+	height: 750px;
+	background: url('bigline.png') no-repeat;
+	background-size: 37px 750px;
+	position: relative;
+	margin:0 0 0 10em;
+	clear: left;
+
+}
+
+.skinw {
+	background-color: white;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	overflow: hidden;
+
+}
+.info {
+	display: block;
+	float: none;
+	margin:0 auto;
+	position: relative;
+	margin-top: 8em;
+}
+
+.tckt {
+	width: 260px;
+	height: 130px;
+	background: url('ticket.png') no-repeat;
+	background-size: 260px 130px;
+	position: relative;
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+.map {
+	width: 260px;
+	height: 130px;
+	background: url('card.png') no-repeat;
+	background-size: 260px 130px;
+	position: relative;
+}
+body > div:nth-child(20) > h5 {
+	margin-top: 10em;
+}
+
+.xtx {
+	width: 333px;
+	float: left;
+
+	display: inline-block;
+	position: relative;
+	margin-top: 4em;
+	margin-left: 4em;
+
+}
+.x {
+	width: 100%;
+	height: 300px;
+	background: url('horline.png') repeat-x;
+	background-size: 100px 15px;
+	display: block;
+	position: relative;
+	float: none;
+}
+body div:nth-child(21) div h3 {
+	width:1000px;
+	margin-left: 5em;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	text-align: left;
+}
+.boat {
+	width: 300px;
+    height: 60px;
+    background: url('boat.png') no-repeat;
+    background-size: 70px 50px;
+    background-position: top-left;
+}
+.shoes {
+	width: 300px;
+    height: 50px;
+    background: url('shoe.png') no-repeat;
+    background-size: 73px 42px;
+    background-position: top-left;
+}
+
+.grayx {
+	width:600px;
+	height: 600px;
+	background-color: #dfe1e3;
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+body div:nth-child(24) div.block {
+	margin: 5em 0 0 3em;
+}
+body div:nth-child(24) div.block h3.heading1 {
+	margin-bottom: 2em;
+}
+body div:nth-child(24) div.block div {
+	background-color: #191f25;
+	border: 3px solid #191f25;
+	margin-bottom: 4em;
+	width: 80px;
+	height: 20px;
+
+}
+body div:nth-child(24) div.block p.textexmpl {
+	width: 200px;
+}
+body div:nth-child(24) div.block div.bottom h5 {
+	margin-top: 4px
+}
