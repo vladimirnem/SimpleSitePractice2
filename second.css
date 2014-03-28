@@ -1,5 +1,5 @@
 .skin1 {
-	background-color: #191f25;
+	background-color: yellow;
 	margin: 0 auto;
 	display: block;
 	position: relative;
@@ -12,7 +12,7 @@ body {
 }
 .tbody1 {
 	width: 1000px;
-	background-color: #191f25;
+	background-color: #212A33;
 	margin: 0 auto;
 	display: block;
 	position: relative;
@@ -42,7 +42,7 @@ body {
 	font: 10px arial, sans-serif;
 	text-align: left;
 	width: 300px;
-	margin-bottom: 8em;
+	margin-bottom: 2em;
 }
 .textexmpl2 {
 	color: #a8aeae;
