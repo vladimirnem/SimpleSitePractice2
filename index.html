@@ -2,22 +2,24 @@
 <html lang='en'>
   <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<!--   <link rel="stylesheet" type="text/css" href="reset.css">
- -->  <link rel="stylesheet" type="text/css" href="newcss.css">
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" type="text/css" href="some.css">
   <title>
     ExampleSite
   </title>
   </head>
   <body>
-  <div class='wrapper' id='wrapper-top'>
-
+  <!-- <div class='wrapper' id='wrapper-top'> -->
+    <div id='register' class='wrapper'>
       <section class='register' id='register-section'>
         <article class='register-explain' id='text-explain'>
+          <div class='register-img'>
           <h1>
             Register your account today and get free month trial
           </h1>
-          <div></div>
-        <section>
+          <img src='email-signup.png' alt='Sirgn Email'>
+          </div>
+        <div class='register-info'>
           <h2>
               The most important part of the Starup Design Framework is   the samples
           </h2>
@@ -33,10 +35,12 @@
           <p>
               Lorem ipsum Amet qui adipisicing sunt dolor consequat exercitation esse laboris culpa dolore ut sint consectetur do nisi tempor aliquip sunt Duis.
           </p>
-        </section>
+        </div>
         </article>
       </section>
+    </div>
 
+    <div id='samples' class='wrapper'>
       <section class='samples' id='samples-section'>
         <h1>
           Twenty five beautiful samples
@@ -45,12 +49,13 @@
           <img src="samplegrid.png" alt='SampleGrid'/>
         </article>
       </section>
+    </div>
 
+    <div id='image' class='wrapper'>
       <section class='image' id='image-section'>
-        <h1>
-          More than image
-        </h1>
+        <img src="pirate.png">
         <article>
+          <h1>More than image</h1>
           <p>
             Lorem ipsum Minim non voluptate adipisicing est ut enim voluptate aliqua incididunt velit ullamco enim pariatur eiusmod sed in cupidatat deserunt.
           </p>
@@ -59,7 +64,9 @@
           </div>
         </article>
       </section>
+    </div>  
 
+    <div id='made-in' class='wrapper'>
       <section class='made-in' id='made-in-section'>
         <article>
           <div class='framework' id='made-in-framework'>
@@ -68,11 +75,13 @@
           <img src="smlbtm.png" alt='little button'/>
         </article>
       </section>
+    </div>
 
+    <div id='components' class='wrapper'>
       <section class='components' id='components-section'>
+        <img src="exldoc.png">
         <article>
-          <div class='minipic' id='minipic-components'>
-          </div>
+          <img src='minipic.png'>
           <h1>Multi useful components</h1>
           <p >
             Lorem ipsum Esse Duis ea Ut sed Duis minim consequat ut eiusmod cupidatat dolor. Lorem ipsum Ullamco exercitation adipisicing minim ullamco ea cupidatat culpa magna culpa eu tempor esse cupidatat dolore cupidatat sed sed occaecat adipisicing minim reprehenderit ex amet sint dolor cillum esse nisi cillum sunt elit sint occaecat elit.
@@ -82,11 +91,13 @@
           </div>
         </article>
       </section>
+    </div>
   </div>
 
-  <div class='wrapper' id='wrapper-center'>
-
+ <!-- <div class='wrapper' id='wrapper-center'> -->
+    <div id='sneak-peek' class='wrapper-gray'>
     <section class='sneak-peek' id='sneak-peek-section'>
+      <img src="rocket.png" alt='rocket' />
       <article>
         <h1>
           The Second Sneak-Peek of Startup Design Framework
@@ -98,9 +109,10 @@
           Lorem ipsum Sed esse irure ex Ut sint deserunt sint quis sunt dolor ex dolore eiusmod consectetur sed proident reprehenderit nisi id consectetur sint nisi aliqua adipisicing ea et adipisicing eu nostrud dolore.Lorem ipsum Sed esse irure ex Ut sint deserunt sint quis sunt dolor ex dolore eiusmod consectetur sed proident reprehenderit nisi id consectetur sint nisi aliqua adipisicing ea et adipisicing eu nostrud dolore.
         </p>
       </article>
-      <img src="rocket.png" alt='rocket' />
     </section>
+    </div>
 
+  <div id='more-sneak-peek' class='wrapper-gray'>
     <section class='more-sneak-peek' id='more-peek-section'>
       <header>
         <h1>
@@ -112,6 +124,7 @@
       </header>
       <article>
         <div class='s-pone'>
+          <img src='twt.png'>
           <h3>
             Based on Bootstrap
           </h3>
@@ -120,12 +133,14 @@
           </p>
         </div>
         <div class='s-ptwo'>
+          <img src="ipadiphone.png">
           <h3>Based on Bootstrap</h3>
           <p>
             Lorem ipsum In velit consectetur qui sunt in dolor laboris magna officia.Lorem ipsum In velit consectetur qui sunt in dolor laboris magna officia.
           </p>
         </div>
         <div class='s-pthree'>
+          <img src="pspro.png">
           <h3>Based on Bootstrap</h3>
           <p>
             Lorem ipsum In velit consectetur qui sunt in dolor laboris magna officia.Lorem ipsum In velit consectetur qui sunt in dolor laboris magna officia.
@@ -133,17 +148,22 @@
         </div>
       </article>
     </section>
+  </div>
 
+  <div id='demo' class='wrapper-gray'>
     <section class='demo' id='demo-section'>
       <img src="rocketstar.png" alt='rocket' />
       <article>
         <h1>Demo version</h1>
         <p>
-          Lorem ipsum Est Excepteur do consequat nisi dolor tempor ullamco proident anim ad nisi officia in non cillum fugiat dolore Duis Duis laboris non tempor nulla culpa ad laborum eu occaecat in incididunt aliqua qui elit magna fugiat deserunt mollit Duis aliqua.
+          Lorem ipsum Est Excepteur do consequat nisi dolor tempor ullamco proident anim ad nisi officia in non cillum fugiat 
         </p>
+        <img src='buyos.png'>
       </article>
     </section>
+  </div>  
 
+  <div id='more-image' class='wrapper-gray'>
     <section class='more-image' id='more-image-section'>
       <article>
         <h1>More than image</h1>
@@ -151,24 +171,30 @@
           Lorem ipsum Esse commodo nulla dolor do non voluptate in in dolor in aute incididunt Ut consequat sit irure non sint ea anim minim occaecat reprehenderit incididunt commodo exercitation est anim dolor ut.
         </p>
       </article>
+      <img src='flyingbird.png'>
     </section>
+  </div>  
   </div>
 
-  <div class='wrapper' id='wrapper-bottom'>
-
+  <!-- <div class='wrapper' id='wrapper-bottom'> -->
+  <div id='video' class='wrapper-white'>
     <section class='video' id='video-section'>
       <img src="video.png" alt='video Screen'/>      
+  </div>
     </section>
 
+  <div id='demonstration' class='wrapper-white'>
     <section class='demonstration' id='demonstration-section'>
       <img src="scrn.png" alt='iPhone Display'/>
       <img src="scrn2.png" alt='iPhone Display'/>
       <img src='scrn3.png' alt='iPhone Display'/>
       <img src="scrn.png" alt='iPhone Display'/>
     </section>
+  </div>
 
+  <div id='combine' class='wrapper-white'>
     <section class='combine' id='combine-section'>
-      
+      <img src='bigline.png'>
       <article>
         <h1>You can combine any blocks</h1>
         <p>
@@ -184,28 +210,34 @@
           <img src='card.png' alt='Map box' />
         </article>
       </section>
+    </div>
 
-      <section class='documentation' id='documentation'>
-        <header>
+    <div id='documentation' class='wrapper-gray'>
+      <section class='documentation' id='documentation-section'>
+        <article>
           <h1>Documentation</h1>
           <p>
             Lorem ipsum Cillum Duis Excepteur Duis do dolore laboris proident minim culpa exercitation amet nisi deserunt et nisi quis Excepteur cupidatat mollit eiusmod cillum Duis consectetur dolor eiusmod veniam aliqua Ut dolor do in Ut ad.
           </p>
-        </header>
+        </article>
+      </section>
+    </div>
+    <div id='documentation-info' class='wrapper-gray'>
+      <section class='documentation-info' id='documentation-info-section'>
         <article>
-          <div class='expl1-doc'>
+          <div class='doc-info'>
             <h3>High Resolution</h3>
             <p>
               Lorem ipsum Dolor id commodo nulla cillum velit commodo exercitation elit non adipisicing proident quis reprehenderit ea eiusmod sed eiusmod consequat.
             </p>
           </div>
-          <div class='expl2-doc'>
+          <div class='doc-info'>
             <h3>Easy to Use</h3>
             <p>
               Lorem ipsum Dolor id commodo nulla cillum velit commodo exercitation elit non adipisicing proident quis reprehenderit ea eiusmod sed eiusmod consequat.
             </p>
           </div>
-          <div class='expl3-doc'>
+          <div class='doc-info'>
             <h3>Many Components</h3>
             <p>
               Lorem ipsum Dolor id commodo nulla cillum velit commodo exercitation elit non adipisicing proident quis reprehenderit ea eiusmod sed eiusmod consequat.
@@ -213,7 +245,9 @@
           </div>
         </article>
       </section>
+    </div>
 
+    <div id='importent-doc' class='wrapper-white'>  
       <section class='importent-doc' id='importent-section'>
         <header>
           <h2>
@@ -221,23 +255,25 @@
           </h2>
         </header>
       </section>
+    </div>
 
+    <div id='ready-code' class='wrapper-gray'>
       <section class='ready-code' id='ready-code-section'>
         <header>
           <h1>Ready to Code</h1>
           <p>
-            Lorem ipsum Reprehenderit veniam non sunt aliquip sed id velit commodo pariatur.
+            Lorem ipsum Reprehenderit veniam non sunt aliquip sed id velit commodo pariatur. Lorem ipsum Exercitation reprehenderit nostrud aute aliqua ad proident aliquip in culpa officia.
           </p>
         </header>
         <article>
-          <div class='boat-code'>
+          <div class='ready-code-info'>
             <img src="boat.png" alt='Boat logo'/>
             <h3>HTML5, Less, CSS3</h3>
             <p>
               Lorem ipsum Ex enim tempor ut eiusmod sit adipisicing sunt labore veniam incididunt Ut ut.
             </p>
           </div>
-          <div class='shoes-code'>
+          <div class='ready-code-info'>
             <img src="shoe.png" alt='Shoe logo'/>
             <h3>HTML5, Less, CSS3</h3>
             <p>
@@ -246,7 +282,9 @@
           </div>
         </article>
       </section>
+    </div>
 
+    <div id='features' class='wrapper-white'>
       <section class='features' id='features-section'>
         <article>
           <h2>Features</h2>
@@ -272,6 +310,7 @@
           </div>
         </article>
       </section>
+     </div> 
     </div>
   </body>
   </html>
